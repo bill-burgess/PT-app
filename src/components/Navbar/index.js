@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-class Home extends Component {
+class Navbar extends Component {
   render () {
     return (
       <div>
-        <h1>hello world</h1>
+        hello navbar
       </div>
     )
   }
 }
 
-export default connect(state => state)(Home)
+export default connect(state => state)(Navbar)
